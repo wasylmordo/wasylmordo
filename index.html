@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+            font-family: 'Minecraft', sans-serif;
+            font-variant: small-caps;
+        }
+        .image-container {
+            text-align: center;
+        }
+        .fire-image {
+            vertical-align: middle;
+            width: 30px;
+            height: auto;
+        }
+        .arrow {
+            position: fixed;
+            bottom: 20px;
+            right: 100px;
+            animation: bounce 2s infinite, pulse 1.5s infinite;
+        }
+        .pulse-text {
+            position: fixed;
+            bottom: 100px;
+            right: 20px;
+            font-size: 1.2em;
+            animation: pulse 1.5s infinite;
+            font-family: 'Minecraft', sans-serif;
+            text-align: center;
+            color: crimson;
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        @keyframes pulse {
+            0% {
+                opacity: 0.7;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0.7;
+            }
+        }
+        .bottom-gif-container {
+            text-align: center;
+            margin-top: 1000px; /* Adjust this value to add more space */
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Strona Jakuba
+        <img src="https://media.tenor.com/fdo-vnegQqUAAAAi/fire-fire-emote.gif" alt="Fire" class="fire-image">
+    </h1>
+    <p style="font-size: 0.9em;"></p>
+    <div class="image-container">
+        <img src="https://media1.tenor.com/m/ap6LSaSeQ_kAAAAC/ishowspeed-try-not-to-laugh.gif" alt="GIF">
+    </div>
+    <div class="arrow">
+        <img src="https://freepngtransparent.com/wp-content/uploads/2023/03/Red-Arrow-Png-135.png" alt="Scroll Down Arrow" style="width: 50px; height: auto;">
+    </div>
+    <div class="pulse-text">NA DOLE JEST DUZO WIECEJ!</div>
+    <div class="bottom-gif-container">
+        <img src="https://media.tenor.com/V1FJDTS2p4wAAAAi/sike-jk.gif" alt="Large GIF">
+    </div>
+</body>
+</html>
